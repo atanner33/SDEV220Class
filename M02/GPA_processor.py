@@ -13,8 +13,8 @@ while endProgram == False:
         firstName = input("Enter the Student's first name: ")
         GPA = float(input("Enter the student's GPA: "))
         if GPA >= 3.5:
-            print("Congrats! The studnet made the Dean's List.")
+            print("Congrats!", firstName, lastName, "made the Dean's List.")
         elif GPA >= 3.25:
-            print("Congrats! The student made Honor Roll.")
+            print("Congrats!", firstName, lastName, "made Honor Roll.")
         else:
-            print("Sorry, the student did not make Dean's List or Honor Roll.")
+            print("Sorry,", firstName, lastName, "did not make Dean's List or Honor Roll.")
